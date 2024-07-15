@@ -1,2 +1,2 @@
-def example_function():
-    return 1 + 1
+def calculate_regions(int: lines):
+    return (lines * (lines + 1)) // 2 + 1
