@@ -11,7 +11,7 @@ null
 
 Install this library using `pip`:
 ```bash
-pip install reimagined-happiness
+pip install My-first-Package
 ```
 ## Usage
 
@@ -21,7 +21,7 @@ Usage instructions go here.
 
 To contribute to this library, first checkout the code. Then create a new virtual environment:
 ```bash
-cd reimagined-happiness
+cd My-first-Package
 python -m venv venv
 source venv/bin/activate
 ```
