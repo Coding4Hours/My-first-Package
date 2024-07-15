@@ -1,5 +1,5 @@
 [project]
-name = "reimagined-happiness"
+name = "My-first-Package"
 version = "0.1"
 description = "null"
 readme = "README.md"
@@ -18,10 +18,10 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project.urls]
-Homepage = "https://github.com/Coding4Hours/reimagined-happiness"
-Changelog = "https://github.com/Coding4Hours/reimagined-happiness/releases"
-Issues = "https://github.com/Coding4Hours/reimagined-happiness/issues"
-CI = "https://github.com/Coding4Hours/reimagined-happiness/actions"
+Homepage = "https://github.com/Coding4Hours/My-first-Package"
+Changelog = "https://github.com/Coding4Hours/My-first-Package/releases"
+Issues = "https://github.com/Coding4Hours/My-first-Package/issues"
+CI = "https://github.com/Coding4Hours/My-first-Package/actions"
 
 
 [project.optional-dependencies]
