@@ -1,4 +1,4 @@
-from reimagined_happiness import example_function
+from My_first_Package import example_function
 
 
 def test_example_function():
