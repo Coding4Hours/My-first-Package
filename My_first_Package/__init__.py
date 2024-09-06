@@ -1,15 +1,15 @@
 from math import factorial as fact
 
-def permutations(int: n, int: k) -> int:
+def permutations(n: int, k: int) -> int:
     return fact(n) // fact(n - k)
 
-def combinations(int: n, int: k) -> int:
+def combinations(n: int, k: int) -> int:
     return fact(n) // (fact(k) * fact(n - k))
 
-def calculate_regions(int: lines) -> int:
+def calculate_regions(lines: int) -> int:
     return (lines * (lines + 1)) // 2 + 1
 
-def fibonacci(int: num) -> int:
+def fibonacci(num: int) -> int:
     if num <= 0:
         return []
     elif num == 1:
@@ -22,7 +22,7 @@ def fibonacci(int: num) -> int:
     return fib_sequence
 
 
-def prime_factors(int: num) -> int:
+def prime_factors(num: int) -> int:
     factors = []
     divisor = 2
     while num > 1:
@@ -33,11 +33,11 @@ def prime_factors(int: num) -> int:
     return factors
 
 
-def gcd(int: num1, int: num2) -> int:
+def gcd(num1: int, num2: int) -> int:
     while num2:
         num1, num2 = num2, num1 % num2
     return a
 
 
-def lcm(int: num1, int: num2) -> int:
+def lcm(num1: int, num2: int) -> int:
     return abs(num1 * num2) // gcd(num1, num2)
